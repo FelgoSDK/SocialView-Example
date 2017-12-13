@@ -47,7 +47,7 @@ App {
     multiplayerItem: multiplayer
 
     // increase leaderboard score by 1 for each app start
-    Component.onCompleted: gameNetwork.reportScore(1)
+    Component.onCompleted: gameNetwork.reportRelativeScore(1)
   }
 
   VPlayMultiplayer {
