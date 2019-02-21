@@ -6,26 +6,8 @@
     <string>SocialView Example</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
-    <key>CFBundleIconFile</key>
-    <string>Icon.png</string>
-    <key>CFBundleIconFiles</key>
-    <array>
-        <string>Icon-60.png</string>
-        <string>Icon-60@2x.png</string>
-        <string>Icon-60@3x.png</string>
-        <string>Icon-72.png</string>
-        <string>Icon-72@2x.png</string>
-        <string>Icon-76.png</string>
-        <string>Icon-76@2x.png</string>
-        <string>Icon-Small-40.png</string>
-        <string>Icon-Small-40@2x.png</string>
-        <string>Icon-Small-50.png</string>
-        <string>Icon-Small-50@2x.png</string>
-        <string>Icon.png</string>
-        <string>Icon@2x.png</string>
-    </array>
     <key>CFBundleIdentifier</key>
-    <string>net.vplay.demos.SocialViewExample</string>
+    <string>com.felgo.demos.SocialViewExample</string>
     <key>CFBundleName</key>
     <string>${PRODUCT_NAME}</string>
     <key>CFBundlePackageType</key>
@@ -54,61 +36,6 @@
     <array>
         <string>UIInterfaceOrientationPortrait</string>
         <string>UIInterfaceOrientationPortraitUpsideDown</string>
-    </array>
-    <key>UILaunchImageFile</key>
-    <string>Def.png</string>
-    <key>UILaunchImages</key>
-    <array>
-    <dict>
-        <key>UILaunchImageMinimumOSVersion</key>
-        <string>7.0</string>
-        <key>UILaunchImageName</key>
-        <string>Def</string>
-        <key>UILaunchImageOrientation</key>
-        <string>Portrait</string>
-        <key>UILaunchImageSize</key>
-        <string>{320, 480}</string>
-    </dict>
-    <dict>
-        <key>UILaunchImageMinimumOSVersion</key>
-        <string>7.0</string>
-        <key>UILaunchImageName</key>
-        <string>Def-568h</string>
-        <key>UILaunchImageOrientation</key>
-        <string>Portrait</string>
-        <key>UILaunchImageSize</key>
-        <string>{320, 568}</string>
-    </dict>
-    <dict>
-        <key>UILaunchImageMinimumOSVersion</key>
-        <string>8.0</string>
-        <key>UILaunchImageName</key>
-        <string>Def-667h</string>
-        <key>UILaunchImageOrientation</key>
-        <string>Portrait</string>
-        <key>UILaunchImageSize</key>
-        <string>{375, 667}</string>
-    </dict>
-    <dict>
-        <key>UILaunchImageMinimumOSVersion</key>
-        <string>8.0</string>
-        <key>UILaunchImageName</key>
-        <string>Def-Portrait-736h</string>
-        <key>UILaunchImageOrientation</key>
-        <string>Portrait</string>
-        <key>UILaunchImageSize</key>
-        <string>{414, 736}</string>
-    </dict>
-    <dict>
-        <key>UILaunchImageMinimumOSVersion</key>
-        <string>7.0</string>
-        <key>UILaunchImageName</key>
-        <string>Def-Portrait</string>
-        <key>UILaunchImageOrientation</key>
-        <string>Portrait</string>
-        <key>UILaunchImageSize</key>
-        <string>{768, 1024}</string>
-    </dict>
     </array>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>App would like to access the library.</string>

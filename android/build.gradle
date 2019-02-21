@@ -39,7 +39,7 @@ android {
     compileSdkVersion androidCompileSdkVersion.toInteger()
     buildToolsVersion androidBuildToolsVersion
 
-    defaultConfig.applicationId = 'net.vplay.demos.SocialViewExample'
+    defaultConfig.applicationId = 'com.felgo.demos.SocialViewExample'
 
     sourceSets {
         main {

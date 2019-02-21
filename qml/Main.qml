@@ -1,5 +1,4 @@
-import VPlay 2.0
-import VPlayApps 1.0
+import Felgo 3.0
 import QtQuick 2.9
 
 App {
@@ -40,7 +39,7 @@ App {
   }
 
   // service configuration
-  VPlayGameNetwork {
+  FelgoGameNetwork {
     id: gameNetwork
     gameId: 285
     secret: "AmazinglySecureGameSecret"
@@ -50,7 +49,7 @@ App {
     Component.onCompleted: gameNetwork.reportRelativeScore(1)
   }
 
-  VPlayMultiplayer {
+  FelgoMultiplayer {
     id: multiplayer
     appKey: "dd7f1761-038c-4722-9f94-812d798cecfb"
     pushKey: "a4780578-5aad-4590-acbe-057c232913b5"

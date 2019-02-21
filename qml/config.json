@@ -1,6 +1,6 @@
 {
   "title": "SocialView Example",
-  "identifier": "net.vplay.demos.SocialViewExample",
+  "identifier": "com.felgo.demos.SocialViewExample",
   "orientation": "portrait",
   "versioncode": 1,
   "versionname": "1.0",
